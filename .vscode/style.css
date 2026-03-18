@@ -1,0 +1,37 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box; /* mantem que o padding e margin sejam aplicados de forma uniforme em todos os elementos */
+}
+body{
+    background-color: #dafc45;
+    color: blue;
+   line-height: 1.6;
+   padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+h1{ color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: rgb(23, 65, 255);
+    margin-bottom: 20px;
+}
+button{appearance: none;
+    background-color: rgb(255, 0, 0);/* cor principal do botão */
+    color: white;
+    padding: 20px 40px; /* tamanho do do botão */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 300; /* negrito */
+{Background-color: #f0f0f0;*/escurecer o fundo/
+transform: translatey(-2px);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra do botão */
+}
+button:active{
+    background-color: #c00; /* cor do botão quando clicado */
+transform: translateY(0);
+box-shadow: 0 2px 5px rgba (0,0,0,0,2);
+}
+button{font-weight: 900;}
+}
