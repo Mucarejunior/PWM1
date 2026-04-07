@@ -1,0 +1,8 @@
+body{background-color: rgb(189, 189, 252);
+    font-family: sans-serif; text-align: center; margin-top: 50px;}
+input{ padding: 8px; border-radius: 5px; bottom: 1px solid #ccc;}
+button{padding: 8px 15px;
+cursor: pointer; background-color: #007bff; 
+color: white; boldder: none; border-radius: 5px;}
+button:hover{background-color: red;}
+#resultado{margin-top: 20px; font-weight: bold; font-size: 1.2rem;} 
